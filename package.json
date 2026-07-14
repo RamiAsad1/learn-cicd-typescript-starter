@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
     "format:write": "prettier --write \"src/**/*.{js,ts,json,css,md}\"",

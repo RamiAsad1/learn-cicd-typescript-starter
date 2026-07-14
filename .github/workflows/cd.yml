@@ -30,7 +30,7 @@ jobs:
         run: npm run build
 
       - name: Run migrations
-        run: npm run migrate
+        run: npm run db:push
 
       - name: Set up Google Cloud SDK
         uses: google-github-actions/auth@v2
